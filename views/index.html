@@ -2,19 +2,53 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Socket IO Chat with Node!</title>
+	<title>Flavia's Chat!</title>
 	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="https://use.fontawesome.com/5cdc22c5ff.js"></script>
 </head>
 <body>
-	<input type="text" class="nickname" placeholder="What is your nickname?">
+	<section id="container">
+
+		<div id="top-bar">
+			<i class="fa fa-commenting fa-2x" aria-hidden="true"></i>
+			<i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
+			<i class="fa fa-comments fa-2x" aria-hidden="true"></i>
+		</div>
+		<div id="header">
+			<img src="images/logo.svg" alt="logo">
+
+				<div id="quote-box">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<p> This is the best chat app ever! I'm telling all my friends about it, we're never using any other chat! <span id="quote">"No One"</span>
+					<img src="images/no-one.jpg" alt="no one">
+				</div>
+	<div id="nickname-box">
+			<label> Start with your nickname:</label>
+			<input type="text" class="nickname" placeholder="Type it here!">
+		</div>
+		</div>
+
+
 	<ul id="messages"></ul>
 	<form>
 		<input class="message" type="text" id="m" autocomplete="off">
-		<button>send</button>
+		<button>SEND</button>
 	</form>
+	<footer>
+		<img src="images/logo-white.svg" alt="logo">
+		<p> All Rights Reserved</p>
+		<p> THE CHAT APP ©</p>
+
+	</footer>
 
 <script src="/socket.io/socket.io.js"></script>
 <script src="js/main.js"></script>
+</section>
 
 </body>
 </html>

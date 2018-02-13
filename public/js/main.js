@@ -10,12 +10,13 @@
     function setNickname() {
       //debugger;
     nickName = this.value;
+    nickName.style.color = 'blue';
     }
 
     function handleSendMessage(e) {
       e.preventDefault(); //prevent defautl behaviour - send messages
       nickName = (nickName && nickName.length > 0) ? nickName : 'user';
-      msg = `${nickName} says ${chatMessage.value}`;
+      msg = `${nickName} says :  ${chatMessage.value}`;
 
       socket.emit('chat message', msg);
       chatMessage.value = '';
