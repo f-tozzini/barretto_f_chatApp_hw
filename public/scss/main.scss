@@ -37,10 +37,11 @@ body
 }
 
 #quote-box{
-	width: 40%;
+	width: 500px;
 	background: rgb(164, 121, 26);
 	margin-left: 30px;
 	padding: 15px;
+	padding-bottom: 0;
 	margin-top: -140px;
 	border-radius: 8px;
 	margin-bottom: 20px;
@@ -55,11 +56,18 @@ body
 		line-height: 22px;
 		color: white;
 		font-weight: light;
+		width: 60%;
 		#quote
 		{
 			font-style: italic;
 			font-size: 12px;
 			font-weight: bold;
+		}
+		img{
+			margin-top: -100px;
+			margin-left: 115%;
+			height:130px;
+			border-radius: 8px;
 		}
 	}
 
