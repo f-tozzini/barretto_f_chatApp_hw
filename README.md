@@ -3,26 +3,26 @@
 Created Chat app using Node, Express and socket.io for authoring class 3.
 
 
-# Start with:
+## Start with:
 Clone the repo:
 $ git clone <repo url> 
 
-# Install:
+## Install:
 Run npm install on the root folder to install.
 
 
-# Run:
+## Run:
 On the root folder in your terminal type: 
 $ nodemon app
 
-# Acess:
+## Acess:
 Open http://localhost:3000/ in your browser.
 
 
-# Author
+## Author
 Flavia Tozzini Barretto: https://github.com/f-tozzini
 
-# Build with
+## Built with
 - Node Modules
 - Nodemon
 - Express
